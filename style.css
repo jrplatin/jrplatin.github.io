@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+html, body {
+	height : 100%;
+	width : 100%;
+	font-family:'Poppins', sans-serif;
+	color: #222;
+}
+
+
+.navbar {
+	padding: .8rem;
+}
+
+.navbar-nav li{
+	padding-right:  20px;
+}
+
+.nav-link {
+	font-size: 1.1em !important; 
+}
+
+.lighterWeight {
+	font-weight: 350;
+}
+
+.marginsa{
+	margin-left:15px;
+	margin-right:15px;
+}
+
+#titleclass{
+	margin-top: 0.3rem;
+    font-weight: 600;
+	font-size: 250%;
+	margin-left:5px;
+	color:#d56696;
+}
+
+#bigbutton{
+	margin-top:  1.5rem;
+}
+
+.carousel-inner img {
+	height: 100%;
+	width: 100%; 
+}
+
+.carousel-caption {
+	position:  absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+	.row > div
+
+.carousel-caption h1 {
+	font-size: 500%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 10px #fff; 
+}
+
+.carousel-caption h3 {
+	font-size: 200%;
+	font-weight:  500;
+	text-shadow: 1px 1px 10px #fff; 
+	padding-bottom: 1rem; 
+}
+
+.jumbotron {
+	padding: 1rem;
+	border-radius: 0;
+}
+
+.padding {
+	padding-bottom: 2rem;
+}
+
+#welcome {
+	width: 75%; 
+     margin: 0 auto;
+     padding-left: 2rem;
+     padding-right: 2rem; 
+
+	padding-top: 2rem;
+
+}
+
+#aidoc-pic {
+    max-width: 55%;
+}
+
+#strayos-pic{
+    max-width: 85%;
+
+}
+
+#slu-pic{
+    max-width: 65%;
+}
+
+#welcome hr {
+	border-top: 2px solid #b4b4b4;
+	width: 95%; 
+	margin-top: 0.3rem;
+	margin-bottom: 1rem;
+}
+
+#pdf {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.fa-code {
+	color: #e54d26;
+}
+.fa-bold {
+	color: #563d7c;
+}
+.fa-css3 {
+	color: #2163af;
+}
+
+.fa-python {
+	color: #ffff66;
+}
+
+.fa-cuttlefish{
+	color: #80bfff;
+}
+
+.fa-circle-notch{
+	color:#ff9933;
+}
+
+.fa-dove {
+	color : #cc6600;
+}
+
+.fa-android {
+	color:#33cc33;
+}
+
+.fa-maxcdn {
+	color:#0066cc;
+}
+
+.fa-js{
+	color:#f7df1e;
+}
+
+.fa-angular{
+	color:#cc3300;
+}
+
+.fa-r-project{
+	color: #e60000;
+}
+
+.fa-jenkins {
+	color: #C5B358;
+}
+
+.fa-gofore{
+	color: #4b0082;
+}
+
+.fa-github-square{
+	font-size: 10em;
+}
+
+.fa-project-diagram {
+	color:orange;
+}
+b {
+	color: #d56696;
+}
+
+.fa-code, .fa-bold, .fa-css3, .fa-python, .fa-android, .fa-java,
+.fa-maxcdn, .fa-cuttlefish, .fa-r-project, .fa-apple, .fa-js, .fa-angular, .fa-dove,
+.fa-circle-notch, .fa-gofore, .fa-jenkins, .fa-etsy, .fa-registered, .fa-project-diagram{
+	font-size: 4em;
+	margin: 1rem;
+}
+
+.display-4 {
+	color:#d56696;
+}
+.ska {
+	padding: 2.5rem;
+}
+#me {
+	max-width: 100%;
+}
+.double-column {
+	margin: 15px;
+}
+
+#fun:hover {
+	background-color: #d56696;
+	color:white;
+	border-radius: 15px;
+}
+
+#fun {
+	color:#707070;
+	background-color:white;
+	border-color: #d56696;
+	border-radius: 15px;
+
+}
+
+
+h3 {
+	font-weight: 400 !important;
+}
+
+.gif {
+	max-width: 100%;
+}
+
+.social a {
+	font-size: 5em;
+	padding: 3rem;
+}
+
+.fa-facebook {
+	color: #3b5998;
+}
+
+#top-pad {
+	padding-top: 20px;
+	font-weight: 100;
+}
+
+#git-text{
+	text-align: center;
+}
+
+.fa-linked-in{
+	color: #0077B5;
+}
+
+#git {
+	color: black;
+
+}.card-pic{
+	padding: 5px;
+}
+
+#pac-pic{
+	max-width: 70%;
+}
+
+.top-exp {
+	margin-top:50px;
+}
+footer {
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+}
+
+hr.light {
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
+footer a {
+	color: #d5d5d5;
+
+}
+
+hr.light-100 {
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+	width: 100%;
+}
+
+.asp {
+	margin-top: 15%;
+}
+
+/*---Media Queries --*/
+@media (max-width: 1100px) {
+	 .navbar-brand {
+    float: left;
+    margin-right: 5px;
+    margin-left: -15px;
+  }
+  .navbar-nav {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .navbar-nav > li {
+    float: left;
+  }
+  .navbar-nav > li > a {
+    border-radius: 0;
+  }
+  .navbar-nav.pull-right {
+    float: right;
+    width: auto;
+  }
+  .navbar-toggle {
+    position: relative;
+    top: auto;
+    left: auto;
+    display: none;
+  }
+  .nav-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .asp{
+  	margin-top:20%;
+  }
+
+
+}
+@media (max-width: 992px) {
+	.social a {
+		font-size: 4em;
+		padding: 2rem;
+	}
+  }
+@media (max-width: 768px) {
+  .carousel-caption {
+	top: 45%;
+}
+
+.carousel-caption h1 {
+	font-size: 350%;
+}
+
+.carousel-caption h3 {
+	font-size: 140%;
+	font-weight:  400;
+	padding-bottom: .2rem; 
+}
+
+.carousel-caption .btn {
+	font-size: 95%;
+	padding: 8px 14px; 
+}
+
+.display-4 {
+	font-size: 200%; 
+}
+
+
+.social a {
+		font-size: 2.5em;
+		padding: 1.2rem;
+	}
+
+
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+	top: 40%;
+}
+
+.asp {
+	margin-top: 25%;
+}
+
+figure {
+	height: 100%;
+}
+.carousel-caption h1 {
+	font-size: 250%;
+}
+
+.carousel-caption h3 {
+	font-size: 110%;
+}
+
+.carousel-caption .btn {
+	font-size: 90%;
+	padding: 4px 8px; 
+}
+
+.display-4 {
+	font-size: 160%; 
+}
+
+
+.social a {
+		font-size: 2em;
+		padding: 0.7rem;
+	}
+
+
+}
+
+#edunder {
+	margin-top: 50px;
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+
+
+#slides {
+	margin-top:100px;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 0.3rem;
+}
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+

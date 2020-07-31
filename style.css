@@ -88,9 +88,12 @@ html, body {
 }
 
 #aidoc-pic {
-    max-width: 55%;
+    max-width: 52%;
 }
 
+#unity-pic {
+    max-width: 70%
+}
 #strayos-pic{
     max-width: 85%;
 
@@ -204,10 +207,20 @@ b {
 }
 
 #fun {
-	color:#707070;
+	color:#d56696;
 	background-color:white;
 	border-color: #d56696;
-	border-radius: 15px;
+	border-radius: 15px
+
+}
+
+#fun2 {
+	color:#d56696;
+	background-color:white;
+	font-size: 2rem;
+	text-decoration: underline;
+
+
 
 }
 
@@ -225,12 +238,17 @@ h3 {
 	padding: 3rem;
 }
 
+
 .fa-facebook {
 	color: #3b5998;
 }
 
 #top-pad {
 	padding-top: 20px;
+	font-weight: 100;
+}
+
+#top-pad2 {
 	font-weight: 100;
 }
 

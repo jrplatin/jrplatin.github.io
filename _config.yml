@@ -1,2 +1,3 @@
 theme: jekyll-theme-cayman
-{% raw %}{% seo %}{% endraw %}
+plugins:
+  - jekyll-seo-tag

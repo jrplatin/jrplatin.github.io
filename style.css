@@ -176,13 +176,16 @@ html, body {
 .fa-project-diagram {
 	color:orange;
 }
+.fa-code-branch {
+	color:#c4cace;
+}
 b {
 	color: #d56696;
 }
 
 .fa-code, .fa-bold, .fa-css3, .fa-python, .fa-android, .fa-java,
 .fa-maxcdn, .fa-cuttlefish, .fa-r-project, .fa-apple, .fa-js, .fa-angular, .fa-dove,
-.fa-circle-notch, .fa-gofore, .fa-jenkins, .fa-etsy, .fa-registered, .fa-project-diagram{
+.fa-circle-notch, .fa-gofore, .fa-jenkins, .fa-etsy, .fa-registered, .fa-project-diagram, .fa-code-branch{
 	font-size: 4em;
 	margin: 1rem;
 }

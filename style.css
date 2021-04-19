@@ -219,13 +219,13 @@ b {
 	margin: 15px;
 }
 
-#article-link:hover{
+#articlelink:hover{
 	color:#d56696;
 	font-weight: 150;
 	text-decoration: none;
 }
 
-#article-link{
+#articlelink{
 	color:#000000;
 	font-weight: 150;
 	font-size: 1.3em;

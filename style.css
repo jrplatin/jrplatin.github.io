@@ -18,7 +18,8 @@ html, body {
 }
 
 .nav-link {
-	font-size: 1.1em !important; 
+	font-size: 1.4em !important; 
+	padding-top: 10%;
 }
 
 .lighterWeight {
@@ -231,6 +232,10 @@ b {
 	font-size: 1.3em;
 }
 
+li {
+	margin-bottom: 1em;
+}
+
 #fun:hover {
 	background-color: #d56696;
 	color:white;
@@ -333,8 +338,18 @@ hr.light-100 {
 	margin-top: 15%;
 }
 
-/*---Media Queries --*/
-@media (max-width: 1100px) {
+
+@media (max-width: 2000px) {
+	.navbar-expand-xl {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-flow: row nowrap;
+		flex-flow: row nowrap;
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+	
 	 .navbar-brand {
     float: left;
     margin-right: 5px;
@@ -370,9 +385,8 @@ hr.light-100 {
   .asp{
   	margin-top:20%;
   }
-
-
 }
+
 @media (max-width: 992px) {
 	.social a {
 		font-size: 4em;

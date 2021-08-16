@@ -48,9 +48,15 @@ html, body {
 	width: 100%; 
 }
 
-@media(max-width: 1500px){
+@media(max-width: 1450px){
 	#navbar-issue {
-		margin-top: 10%;
+		margin-top: 11%;
+	}
+}
+
+@media (max-width: 3400px) and (min-width: 1450px){
+	#navbar-issue {
+		margin-top: 8%;
 	}
 }
 

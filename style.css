@@ -93,6 +93,12 @@ html, body {
 	padding-bottom: 2rem;
 }
 
+@media (max-width: 500px){
+	#coolio2 {
+	margin-top: 20%;
+	}
+}
+
 #welcome {
 	width: 75%; 
      margin: 0 auto;
@@ -266,12 +272,17 @@ li {
 }
 
 #fun2 {
-	color:#d56696;
 	background-color:white;
-	font-size: 2rem;
+	
+	color:#000000;
+	font-weight: 150;
+	font-size: 2em;
+}
 
-
-
+#fun2:hover {
+	color:#d56696;
+	font-weight: 150;
+	text-decoration: none;
 }
 
 
@@ -319,6 +330,10 @@ h3 {
 
 #pac-pic{
 	max-width: 70%;
+}
+
+#xray-pic{
+	max-width: 35%;
 }
 
 .top-exp {

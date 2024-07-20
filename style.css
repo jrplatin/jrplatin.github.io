@@ -215,6 +215,14 @@ html, body {
 	color:#913e14
 }
 
+.fa-microchip {
+	color: #00308F
+}
+
+.fa-sitemap{
+	color: #8B8000
+}
+
 
 b {
 	color: #d56696;
@@ -223,7 +231,7 @@ b {
 .fa-code, .fa-bold, .fa-css3, .fa-python, .fa-android, .fa-java,
 .fa-maxcdn, .fa-cuttlefish, .fa-r-project, .fa-apple, .fa-js, .fa-angular, .fa-dove,
 .fa-circle-notch, .fa-gofore, .fa-jenkins, .fa-etsy, .fa-registered, .fa-project-diagram, 
-.fa-code-branch, .fa-searchengin, .fa-server ,.fa-goodreads-g{
+.fa-code-branch, .fa-searchengin, .fa-server ,.fa-goodreads-g, .fa-microchip, .fa-sitemap {
 	font-size: 4em;
 	margin: 1rem;
 }

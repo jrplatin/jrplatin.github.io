@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 
-html, body {
-	height : 100%;
-	width : 100%;
-	font-family:'Poppins', sans-serif;
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
 	color: #222;
 }
 
@@ -13,12 +14,12 @@ html, body {
 	padding: .8rem;
 }
 
-.navbar-nav li{
-	padding-right:  20px;
+.navbar-nav li {
+	padding-right: 20px;
 }
 
 .nav-link {
-	font-size: 1.4em !important; 
+	font-size: 1.4em !important;
 	padding-top: 10%;
 }
 
@@ -26,46 +27,50 @@ html, body {
 	font-weight: 350;
 }
 
-.marginsa{
-	margin-left:15px;
-	margin-right:15px;
+.marginsa {
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
-#titleclass{
+#titleclass {
 	margin-top: 0.3rem;
-    font-weight: 600;
+	font-weight: 600;
 	font-size: 250%;
-	margin-left:5px;
-	color:#d56696;
+	margin-left: 5px;
+	color: #d56696;
 }
 
-#bigbutton{
-	margin-top:  1.5rem;
+#bigbutton {
+	margin-top: 1.5rem;
 }
 
 .carousel-inner img {
 	height: 100%;
-	width: 100%; 
+	width: 100%;
 }
 
-@media(max-width: 1450px){
+@media(max-width: 1450px) {
 	#navbar-issue {
 		margin-top: 11%;
 	}
 }
 
-@media (max-width: 3400px) and (min-width: 1450px){
+@media (max-width: 3400px) and (min-width: 1450px) {
 	#navbar-issue {
 		margin-top: 8%;
 	}
 }
 
+#skill-sentence {
+	font-size: 1.9em;
+}
+
 #pink-link {
-	color:#d56696;
+	color: #d56696;
 }
 
 .carousel-caption {
-	position:  absolute;
+	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 }
@@ -74,14 +79,14 @@ html, body {
 .carousel-caption h1 {
 	font-size: 500%;
 	text-transform: uppercase;
-	text-shadow: 1px 1px 10px #fff; 
+	text-shadow: 1px 1px 10px #fff;
 }
 
 .carousel-caption h3 {
 	font-size: 200%;
-	font-weight:  500;
-	text-shadow: 1px 1px 10px #fff; 
-	padding-bottom: 1rem; 
+	font-weight: 500;
+	text-shadow: 1px 1px 10px #fff;
+	padding-bottom: 1rem;
 }
 
 .jumbotron {
@@ -93,56 +98,63 @@ html, body {
 	padding-bottom: 2rem;
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
 	#coolio2 {
-	margin-top: 20%;
+		margin-top: 20%;
 	}
 }
 
 #welcome {
-	width: 75%; 
-     margin: 0 auto;
-     padding-left: 2rem;
-     padding-right: 2rem; 
+	width: 75%;
+	margin: 0 auto;
+	padding-left: 2rem;
+	padding-right: 2rem;
 
 	padding-top: 2rem;
 
 }
 
 #aidoc-pic {
-    max-width: 52%;
+	max-width: 52%;
 }
 
 #unity-pic {
-    max-width: 70%
+	max-width: 70%
 }
-#strayos-pic{
-    max-width: 85%;
+
+#strayos-pic {
+	max-width: 85%;
 
 }
 
-#slu-pic{
-    max-width: 65%;
+#slu-pic {
+	max-width: 65%;
+}
+
+p {
+	font-size: 1.2em;
 }
 
 #welcome hr {
 	border-top: 2px solid #b4b4b4;
-	width: 95%; 
+	width: 95%;
 	margin-top: 0.3rem;
 	margin-bottom: 1rem;
 }
 
 #pdf {
-    width: 75%;
-    margin: 0 auto;
+	width: 75%;
+	margin: 0 auto;
 }
 
 .fa-code {
 	color: #e54d26;
 }
+
 .fa-bold {
 	color: #563d7c;
 }
+
 .fa-css3 {
 	color: #2163af;
 }
@@ -151,35 +163,35 @@ html, body {
 	color: #ffff66;
 }
 
-.fa-cuttlefish{
+.fa-cuttlefish {
 	color: #80bfff;
 }
 
-.fa-circle-notch{
-	color:#ff9933;
+.fa-circle-notch {
+	color: #ff9933;
 }
 
 .fa-dove {
-	color : #cc6600;
+	color: #cc6600;
 }
 
 .fa-android {
-	color:#33cc33;
+	color: #33cc33;
 }
 
 .fa-maxcdn {
-	color:#0066cc;
+	color: #0066cc;
 }
 
-.fa-js{
-	color:#f7df1e;
+.fa-js {
+	color: #f7df1e;
 }
 
-.fa-angular{
-	color:#cc3300;
+.fa-angular {
+	color: #cc3300;
 }
 
-.fa-r-project{
+.fa-r-project {
 	color: #e60000;
 }
 
@@ -187,39 +199,39 @@ html, body {
 	color: #C5B358;
 }
 
-.fa-gofore{
+.fa-gofore {
 	color: #4b0082;
 }
 
-.fa-github-square{
+.fa-github-square {
 	font-size: 10em;
 }
 
 .fa-project-diagram {
-	color:orange;
+	color: orange;
 }
+
 .fa-code-branch {
-	color:#c4cace;
+	color: #c4cace;
 }
 
 .fa-searchengin {
-	color:#cf03fc
-
+	color: #cf03fc
 }
 
-.fa-server{
-	color:#0bb88f
+.fa-server {
+	color: #0bb88f
 }
 
 .fa-goodreads-g {
-	color:#913e14
+	color: #913e14
 }
 
 .fa-microchip {
 	color: #00308F
 }
 
-.fa-sitemap{
+.fa-sitemap {
 	color: #8B8000
 }
 
@@ -228,35 +240,59 @@ b {
 	color: #d56696;
 }
 
-.fa-code, .fa-bold, .fa-css3, .fa-python, .fa-android, .fa-java,
-.fa-maxcdn, .fa-cuttlefish, .fa-r-project, .fa-apple, .fa-js, .fa-angular, .fa-dove,
-.fa-circle-notch, .fa-gofore, .fa-jenkins, .fa-etsy, .fa-registered, .fa-project-diagram, 
-.fa-code-branch, .fa-searchengin, .fa-server ,.fa-goodreads-g, .fa-microchip, .fa-sitemap {
+.fa-code,
+.fa-bold,
+.fa-css3,
+.fa-python,
+.fa-android,
+.fa-java,
+.fa-maxcdn,
+.fa-cuttlefish,
+.fa-r-project,
+.fa-apple,
+.fa-js,
+.fa-angular,
+.fa-dove,
+.fa-circle-notch,
+.fa-gofore,
+.fa-jenkins,
+.fa-etsy,
+.fa-registered,
+.fa-project-diagram,
+.fa-code-branch,
+.fa-searchengin,
+.fa-server,
+.fa-goodreads-g,
+.fa-microchip,
+.fa-sitemap {
 	font-size: 4em;
 	margin: 1rem;
 }
 
 .display-4 {
-	color:#d56696;
+	color: #d56696;
 }
+
 .ska {
 	padding: 2.5rem;
 }
+
 #me {
 	max-width: 100%;
 }
+
 .double-column {
 	margin: 15px;
 }
 
-#articlelink:hover{
-	color:#d56696;
+#articlelink:hover {
+	color: #d56696;
 	font-weight: 150;
 	text-decoration: none;
 }
 
-#articlelink{
-	color:#000000;
+#articlelink {
+	color: #000000;
 	font-weight: 150;
 	font-size: 1.3em;
 }
@@ -267,28 +303,28 @@ li {
 
 #fun:hover {
 	background-color: #d56696;
-	color:white;
+	color: white;
 	border-radius: 15px;
 }
 
 #fun {
-	color:#d56696;
-	background-color:white;
+	color: #d56696;
+	background-color: white;
 	border-color: #d56696;
 	border-radius: 15px;
 
 }
 
 #fun2 {
-	background-color:white;
-	
-	color:#000000;
+	background-color: white;
+
+	color: #000000;
 	font-weight: 150;
 	font-size: 2em;
 }
 
 #fun2:hover {
-	color:#d56696;
+	color: #d56696;
 	font-weight: 150;
 	text-decoration: none;
 }
@@ -321,32 +357,35 @@ h3 {
 	font-weight: 100;
 }
 
-#git-text{
+#git-text {
 	text-align: center;
 }
 
-.fa-linked-in{
+.fa-linked-in {
 	color: #0077B5;
 }
 
 #git {
 	color: black;
 
-}.card-pic{
+}
+
+.card-pic {
 	padding: 5px;
 }
 
-#pac-pic{
+#pac-pic {
 	max-width: 70%;
 }
 
-#xray-pic{
+#xray-pic {
 	max-width: 35%;
 }
 
 .top-exp {
-	margin-top:50px;
+	margin-top: 50px;
 }
+
 footer {
 	background-color: #3f3f3f;
 	color: #d5d5d5;
@@ -387,42 +426,48 @@ hr.light-100 {
 		-ms-flex-pack: start;
 		justify-content: flex-start;
 	}
-	
-	 .navbar-brand {
-    float: left;
-    margin-right: 5px;
-    margin-left: -15px;
-  }
-  .navbar-nav {
-    float: left;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .navbar-nav > li {
-    float: left;
-  }
-  .navbar-nav > li > a {
-    border-radius: 0;
-  }
-  .navbar-nav.pull-right {
-    float: right;
-    width: auto;
-  }
-  .navbar-toggle {
-    position: relative;
-    top: auto;
-    left: auto;
-    display: none;
-  }
-  .nav-collapse.collapse {
-    display: block !important;
-    height: auto !important;
-    overflow: visible !important;
-  }
 
-  .asp{
-  	margin-top:20%;
-  }
+	.navbar-brand {
+		float: left;
+		margin-right: 5px;
+		margin-left: -15px;
+	}
+
+	.navbar-nav {
+		float: left;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.navbar-nav>li {
+		float: left;
+	}
+
+	.navbar-nav>li>a {
+		border-radius: 0;
+	}
+
+	.navbar-nav.pull-right {
+		float: right;
+		width: auto;
+	}
+
+	.navbar-toggle {
+		position: relative;
+		top: auto;
+		left: auto;
+		display: none;
+	}
+
+	.nav-collapse.collapse {
+		display: block !important;
+		height: auto !important;
+		overflow: visible !important;
+	}
+
+	.asp {
+		margin-top: 20%;
+	}
 }
 
 @media (max-width: 992px) {
@@ -430,33 +475,34 @@ hr.light-100 {
 		font-size: 4em;
 		padding: 2rem;
 	}
-  }
+}
+
 @media (max-width: 768px) {
-  .carousel-caption {
-	top: 45%;
-}
+	.carousel-caption {
+		top: 45%;
+	}
 
-.carousel-caption h1 {
-	font-size: 350%;
-}
+	.carousel-caption h1 {
+		font-size: 350%;
+	}
 
-.carousel-caption h3 {
-	font-size: 140%;
-	font-weight:  400;
-	padding-bottom: .2rem; 
-}
+	.carousel-caption h3 {
+		font-size: 140%;
+		font-weight: 400;
+		padding-bottom: .2rem;
+	}
 
-.carousel-caption .btn {
-	font-size: 95%;
-	padding: 8px 14px; 
-}
+	.carousel-caption .btn {
+		font-size: 95%;
+		padding: 8px 14px;
+	}
 
-.display-4 {
-	font-size: 200%; 
-}
+	.display-4 {
+		font-size: 200%;
+	}
 
 
-.social a {
+	.social a {
 		font-size: 2.5em;
 		padding: 1.2rem;
 	}
@@ -465,36 +511,37 @@ hr.light-100 {
 }
 
 @media (max-width: 576px) {
-    .carousel-caption {
-	top: 40%;
-}
+	.carousel-caption {
+		top: 40%;
+	}
 
-.asp {
-	margin-top: 25%;
-}
+	.asp {
+		margin-top: 25%;
+	}
 
-figure {
-	height: 100%;
-}
-.carousel-caption h1 {
-	font-size: 250%;
-}
+	figure {
+		height: 100%;
+	}
 
-.carousel-caption h3 {
-	font-size: 110%;
-}
+	.carousel-caption h1 {
+		font-size: 250%;
+	}
 
-.carousel-caption .btn {
-	font-size: 90%;
-	padding: 4px 8px; 
-}
+	.carousel-caption h3 {
+		font-size: 110%;
+	}
 
-.display-4 {
-	font-size: 160%; 
-}
+	.carousel-caption .btn {
+		font-size: 90%;
+		padding: 4px 8px;
+	}
+
+	.display-4 {
+		font-size: 160%;
+	}
 
 
-.social a {
+	.social a {
 		font-size: 2em;
 		padding: 0.7rem;
 	}
@@ -509,21 +556,22 @@ figure {
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
+	transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+	transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+	-webkit-backface-visibility: visible;
+	backface-visibility: visible;
 }
 
 
 
 #slides {
-	margin-top:100px;
+	margin-top: 100px;
 }
+
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
-    padding: 0.3rem;
+	padding: 0.3rem;
 }
 
 
@@ -544,11 +592,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-

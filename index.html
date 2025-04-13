@@ -39,6 +39,10 @@
 							href="#experience"> Experience</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#publications">
+							Publications </a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#projects">
 							Projects </a>
 					</li>
@@ -88,16 +92,14 @@
 				<h1 id="coolio2" class="display-4">Hi!</h1>
 			</div>
 			<div style="padding-left: 7vw;" class="col-xl-6 col-lg-12 col-md-12 col-sm-12 ">
-				<img style="max-width: 100%;" class="vertical-align" src="img/me.jpg"> </img>
+				<img style="max-width: 100%; max-height:90%" class="vertical-align" src="img/me.jpeg"> </img>
 			</div>
 			<div style="margin-left: -2%;" class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
 				<h2 class="vertical-align" id="top-pad2"> I'm Jacob, and I'm currently a <b>software engineer</b> at
-					<b>Microsoft</b>, where I am working on training large, deep-learning-based speech and multi-modal
-					models.
+					<b>Google</b>, where I am working on optimizing inference for large machine learning models on TPUs and GPUs.
 					I graduated from Penn in May 2022 with my master's in <b>robotics</b> and my bachelor's in
 					<b>computer science</b> and
-					<b>economics</b>, and I am excited to use Microsoft's machine learning models to tackle a variety of
-					difficult challenges in the speech and language domains!
+					<b>economics</b>, and I am excited to make critical machine learning infernece workloads more efficient at scale!
 
 				</h2>
 			</div>
@@ -267,16 +269,32 @@
 		<div class="row padding text-center" style="margin: 30px">
 			<div class="row padding text-center" style="margin: 30px">
 				<div class="col-lg-6">
+					<img src="img/google.png" id="unity-pic" class="img-fluid">
+				</div>
+				<div class="col-lg-6">
+					<h1 class="lighterWeight">Google | Software Engineer III (Machine Learning)</h1>
+					<h5><i>February 2025 - Current | Kirkland, Washington </i></h5>
+					<p> I am a Software Engineer III in the <b>CloudML Compute Services Inference Team.</b> <br><br>
+
+							I am currently optimizing large machine learning model inference (including for Llama 4)
+							on Google's OSS TPU and GPU stacks through roofline analysis, detailed JAX/PyTorch/XLA profiling,
+							and sharding optimization across hundreds of devices
+						<br><br>
+					</p>
+				</div>
+			</div>
+			<div class="row padding text-center" style="margin: 30px">
+				<div class="col-lg-6">
 					<img src="img/msft.png" id="unity-pic" class="img-fluid">
 				</div>
 				<div class="col-lg-6">
 					<h1 class="lighterWeight">Microsoft | Software Engineer II (Machine Learning)</h1>
-					<h5><i>March 2023 - Current | Redmond, Washington </i></h5>
-					<p> I am a Software Engineer II in the <b>Azure AI Speech team</b>, part of the <b>Microsoft AI
+					<h5><i>March 2023 - February 2025 | Redmond, Washington </i></h5>
+					<p> I was a Software Engineer II in the <b>Azure AI Speech team</b>, part of the <b>Microsoft AI
 							Platform organization.</b> <br><br>
 
-						Currently, I am leading the following major efforts: <br><br>
-						
+						I led the following major efforts: <br><br>
+
 						1. Increasing the training speed, performance, and size of deep speech/language models by
 						applying state-of-the-art sharding, networking, and architecture-based techniques, including
 						DeepSpeed, FSDP, and novel Attention mechanisms
@@ -326,7 +344,7 @@
 					<p> I returned to the robotics team at Unity to integrate inverse kinematics directly into Unity for
 						5, 6, and 7-DoF robotic arms. I also
 						implemented joint controllers to model realistic robotic behavior and engineered a VR experience
-						to capture a robot’s workspace in Unity.
+						to capture a robot's workspace in Unity.
 						I found myself using a variety of mathetmics skills, including linear algebra, calculus,
 						trigonometry, and pre-calculus methods.
 					</p>
@@ -441,6 +459,27 @@
 					conference in St. Louis.
 
 
+				</p>
+			</div>
+		</div>
+	</div>
+	<hr class="my-4">
+
+
+	<section id="publications"></section>
+	<br>
+	<h1 class="margina display-4 text-center"> My Publications </h1>
+	<div class="container-fluid padding top-exp">
+		<div class="row padding text-center" style="margin: 30px">
+			<div class="col-lg-6">
+				<img src="img/msft.png" id="unity-pic" class="img-fluid">
+			</div>
+			<div class="col-lg-6">
+				<h1 class="lighterWeight">Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs</h1>
+				<h5><i>March 2025 | Microsoft </i></h5>
+				<p> Working with Microsoft's GenAI and Speech teams, I helped to achieve efficient inference of the Phi-4-Mini through integration with vLLM.
+					This included support for multi-LoRA adapters and speech, language, and vision modalities. This paper can be found <a id="pink-link" target="_blank"
+					href="https://arxiv.org/abs/2503.01743">here</a>.
 				</p>
 			</div>
 		</div>
